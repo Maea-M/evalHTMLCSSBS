@@ -24,6 +24,10 @@ h1{
     font-family: 'Asap', sans-serif;
     margin-top: 10px;
 }
+
+h2{
+    color: #E9D985;
+}
 p {
     font-family: 'Didact Gothic', sans-serif;
     color: #222E50;
@@ -45,7 +49,7 @@ p {
 }
 /*Start ---index.html---*/
 /*start first section*/
-.image-oeil{
+.image-eye, .image-flower{
     width: 300px;
 }
 
