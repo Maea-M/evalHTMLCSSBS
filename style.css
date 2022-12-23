@@ -14,19 +14,28 @@ fifth color : #E9D985
     font-family: 'Lobster Two', cursive;
 */
 
-/* start Global*/
+/* Start global*/
 body{
     margin: 10px;
 }
+
+h1{
+    color: #439A86;
+    font-family: 'Asap', sans-serif;
+    margin-top: 10px;
+}
 p {
     color: #222E50;
-}
+    font-family: 'Lobster Two', cursive;
 
-/* EN gLobal */
+}
+/* End global */
 
 /* Start navbar */
 .navbar a{
     color: #007991;
+    font-family: 'Lobster Two', cursive;
+
 }
 /* End Navbar*/
 
@@ -36,9 +45,12 @@ p {
 .form-label{
     color: #007991;
     margin-top: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+
 }
 .form-control{
     border: #007991 1px solid;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .btn {
     background-color: #007991;
@@ -49,3 +61,4 @@ p {
     background-color: #222E50;
     color: #BCD8C1;
 }
+/*End Formulaire*/
