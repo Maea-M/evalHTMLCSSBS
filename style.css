@@ -13,10 +13,39 @@ fifth color : #E9D985
 
     font-family: 'Lobster Two', cursive;
 */
-body {
-    background-color: #222E50;
+
+/* start Global*/
+body{
+    margin: 10px;
+}
+p {
+    color: #222E50;
 }
 
-h1 {
-    font-family: 'Asap', sans-serif;
+/* EN gLobal */
+
+/* Start navbar */
+.navbar a{
+    color: #007991;
+}
+/* End Navbar*/
+
+
+
+/* Start formulaire */
+.form-label{
+    color: #007991;
+    margin-top: 20px;
+}
+.form-control{
+    border: #007991 1px solid;
+}
+.btn {
+    background-color: #007991;
+    color: white;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #222E50;
+    color: #BCD8C1;
 }
