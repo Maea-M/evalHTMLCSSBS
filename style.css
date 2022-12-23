@@ -25,9 +25,8 @@ h1{
     margin-top: 10px;
 }
 p {
+    font-family: 'Didact Gothic', sans-serif;
     color: #222E50;
-    font-family: 'Lobster Two', cursive;
-
 }
 /* End global */
 
@@ -39,8 +38,18 @@ p {
 }
 /* End Navbar*/
 
+/*Start footer*/
+.footer-p{
+    color: #222E50;
+    font-family: 'Lobster Two', cursive;
+}
+/*Start ---index.html---*/
+/*start first section*/
+.image-oeil{
+    width: 300px;
+}
 
-
+/*start ---contact.html---*/
 /* Start formulaire */
 .form-label{
     color: #007991;
