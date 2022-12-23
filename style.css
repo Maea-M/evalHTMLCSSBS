@@ -8,16 +8,11 @@ fifth color : #E9D985
 
 /* font-family
     font-family: 'Asap', sans-serif;
-
     font-family: 'Didact Gothic', sans-serif;
-
     font-family: 'Lobster Two', cursive;
 */
 
-/* Start global*/
-body{
-    margin: 10px;
-}
+/* --- Start global --- */
 
 h1{
     color: #439A86;
@@ -32,26 +27,41 @@ h2{
 h3 {
     color: #BCD8C1;
 }
+
 p {
     font-family: 'Didact Gothic', sans-serif;
     color: #222E50;
 }
-/* End global */
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* --- End global --- */
+
+/* --- start specific --- */
 /* Start navbar */
 .navbar a{
     color: #007991;
     font-family: 'Lobster Two', cursive;
-
 }
-/* End Navbar*/
 
 /*Start footer*/
-.footer-p{
-    color: #222E50;
+footer{
+    background: linear-gradient(180deg, rgba(233,217,133,1) 0%, rgba(0,121,145,1) 100%);
+}
+
+footer p {
     font-family: 'Lobster Two', cursive;
 }
-/*Start ---index.html---*/
+
+/* start main */
+main {
+    margin: 10px;
+}
+/*Start image */
 .paint{
     width: 90vw;
     margin-top: 10px;
@@ -59,14 +69,6 @@ p {
     border-radius: 3px;
 }
 
-.contain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/*start ---contact.html---*/
 /* Start formulaire */
 .form-label{
     color: #007991;
@@ -88,4 +90,18 @@ p {
     background-color: #222E50;
     color: #BCD8C1;
 }
-/*End Formulaire*/
+
+/* Media queries*/
+@media (min-width: 992px) {
+    .paint-cover {
+        width: 50vw;
+    }
+
+    .card {
+        flex-direction: row;
+    }
+    .form-control{
+        width: 50vw;
+    }
+}
+/* --- End Specific --- */

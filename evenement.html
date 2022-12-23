@@ -12,74 +12,80 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,500;0,700;0,900;1,700&family=Didact+Gothic&family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">    
     <title>Les arts du Haut-Léon</title>
 </head>
+
 <body>
     <!-- Start Header -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Les arts du Haut-Léon</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Evènements</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Les arts du Haut-Léon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Evènements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- End Header-->
 
     <!-- Start Main-->
-    <!--Start First section-->
-    <div class="contain">
-        <h1>Saison 2023</h1>
-        <img src="images/art.jpg" alt="acrylique visage" class="paint">
-        <p>Une nouvelle année se prépare avec de nombreux évènements : installations extérieures, salon de peinture, exposition de sculpture. Prenez date dans vos agendas.</p>
-    </div>
-    <!--End First section-->
+    <main>
+        <!--Start First section-->
+        <div class="flex">
+            <h1>Saison 2023</h1>
+            <img src="images/art.jpg" alt="acrylique visage" class="paint paint-cover">
+            <p>Une nouvelle année se prépare avec de nombreux évènements : installations extérieures, salon de peinture, exposition de sculpture. Prenez date dans vos agendas.</p>
+        </div>
+        <!--End First section-->
 
-    <!--Start second section-->
-    <div class="contain">
-        <img src="images/sculpure.jpeg" class="paint" alt="sculpture de Bragoni">
-        <h2 class="card-title">34ème salon de sculpture - Landivisiau</h2>
-        <h3>Du 4 mars au 2 avril 2023</h3>
-        <p class="card-text">Venez assister au 34ème salon de sculpture de la ville de Landivsiau. L'artiste à l'honneur sera Daniele Bragoni. En parallèle, des artistes sont invités à exposer leurs oeuvres dans la ville de Landivisiau. Les installations sont de nature variée et propice à l'émerveillement: posées au sol, suspendues, interactives.</p>
-        <a href="https://www.le-vallon.fr/le-vallon_art-visuel_expo22-23__84.htm" target="_blank" class="btn">Jetez-y un oeil</a>
-    </div>
+        <!--Start second section-->
+        <div class="flex card">
+            <img src="images/sculpure.jpeg" class="paint" alt="sculpture de Bragoni">
+            <h2>34ème salon de sculpture - Landivisiau</h2>
+            <h3>Du 4 mars au 2 avril 2023</h3>
+            <p>Venez assister au 34ème salon de sculpture de la ville de Landivsiau. L'artiste à l'honneur sera Daniele Bragoni. En parallèle, des artistes sont invités à exposer leurs oeuvres dans la ville de Landivisiau. Les installations sont de nature variée et propice à l'émerveillement: posées au sol, suspendues, interactives.</p>
+            <a href="https://www.le-vallon.fr/le-vallon_art-visuel_expo22-23__84.htm" target="_blank" class="btn">Jetez-y un oeil</a>
+        </div>
 
-    <div class="contain">
-        <img src="images/carolineuderwater.jpg" class="paint" alt="peinture de Caroline Boyfield">
-        <h2 class="card-title">Quatre femmes De l'invisibilité à l'Affirmation</h2>
-        <h3>Du 3 février au 26 février 2023</h3>
-        <p class="card-text">A la maison Prébendale de Saint-Pol-de-Léon, retrouvez 4 artistes : Caroline Boyfield, Véronique Duprat, EDMA, Mich Maroney.</p>
-        <a href="https://www.saintpoldeleon.bzh/saison-culturelle-2022-2023/" target="_blank" class="btn">Jetez-y un oeil</a>
-    </div>
+        <div class="flex card">
+            <img src="images/carolineuderwater.jpg" class="paint" alt="peinture de Caroline Boyfield">
+            <h2>Quatre femmes De l'invisibilité à l'Affirmation</h2>
+            <h3>Du 3 février au 26 février 2023</h3>
+            <p>A la maison Prébendale de Saint-Pol-de-Léon, retrouvez 4 artistes : Caroline Boyfield, Véronique Duprat, EDMA, Mich Maroney.</p>
+            <a href="https://www.saintpoldeleon.bzh/saison-culturelle-2022-2023/" target="_blank" class="btn">Jetez-y un oeil</a>
+        </div>
 
-    <div class="contain">
-        <img src="images/photo.jpg" class="paint" alt="le lin">
-        <h2 class="card-title">Exposition photographique "Gloire au lin" d'Hervé Ronné</h2>
-        <h3>Du 22 juin 2021 au 29 janvier 2023</h3>
-        <p class="card-text">Avec cette exposition photographique, redécouvrer le lin, filière d'avenir pour la région et qui a déjà fait sa gloire dans le passé.</p>
-        <a href="https://musee.ville.morlaix.fr/expositions/" target="_blank" class="btn">Jetez-y un oeil</a>
-    </div>
+        <div class="flex">
+            <img src="images/photo.jpg" class="paint" alt="le lin">
+            <h2>Exposition photographique "Gloire au lin" d'Hervé Ronné</h2>
+            <h3>Du 22 juin 2021 au 29 janvier 2023</h3>
+            <p>Avec cette exposition photographique, redécouvrer le lin, filière d'avenir pour la région et qui a déjà fait sa gloire dans le passé.</p>
+            <a href="https://musee.ville.morlaix.fr/expositions/" target="_blank" class="btn">Jetez-y un oeil</a>
+        </div>
     <!-- End Second section-->
 
-
+    </main>
     <!-- End Main-->
 
     <!--Start Footer-->
-    <p>Ce site a été réalisé dans le cadre d'une évaluation</p>
-    <p>Morgane Mahé <i class="bi bi-c-circle"></i> Copyright 2022</p>
-
+    <footer class="flex">
+        <p>Ce site a été réalisé dans le cadre d'une évaluation</p>
+        <p>Morgane Mahé <i class="bi bi-c-circle"></i> Copyright 2022</p>
+    </footer>
     <!--End Footer-->
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
