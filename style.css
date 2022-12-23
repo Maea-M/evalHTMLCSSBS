@@ -84,7 +84,7 @@ main {
     background-color: #007991;
     color: white;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .btn:hover{
     background-color: #222E50;
@@ -93,15 +93,27 @@ main {
 
 /* Media queries*/
 @media (min-width: 992px) {
-    .paint-cover {
+    .paint-contact {
         width: 50vw;
+        height: 30vh;
+        object-fit: cover;
     }
 
-    .card {
-        flex-direction: row;
+    .paint-cover{
+        width: 250px;
+        height: 250px;
     }
     .form-control{
         width: 50vw;
+    }
+
+    .dispear{
+        display: none;
+    }
+
+    main{
+        margin-left: 400px;
+        margin-right: 400px;
     }
 }
 /* --- End Specific --- */
