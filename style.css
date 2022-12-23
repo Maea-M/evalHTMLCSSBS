@@ -49,8 +49,17 @@ p {
 }
 /*Start ---index.html---*/
 /*start first section*/
-.image-eye, .image-flower{
+.paint{
     width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /*start ---contact.html---*/
