@@ -1,5 +1,5 @@
 
-# Evaluation HTML CSS BOOTSRAP
+# Evaluation HTML CSS BOOTSTRAP
 
 Cette évaluation du module "Développer la partie front-end d’une application web ou web mobile en intégrant les recommandations de sécurité" évalue les compétences suivantes du métier visé, selon le référentiel de certification :
 - maquetter une application
