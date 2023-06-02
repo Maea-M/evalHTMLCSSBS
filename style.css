@@ -43,18 +43,30 @@ p {
 
 /* --- start specific --- */
 /* Start navbar */
+.navbar {
+    background-color: #007991;
+}
 .navbar a{
-    color: #007991;
+    color: #E9D985;
     font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
 }
 
 /*Start footer*/
 footer{
-    background: linear-gradient(180deg, rgba(233,217,133,1) 0%, rgba(0,121,145,1) 100%);
+    background: #007991;
 }
 
 footer p {
+    margin-top: 10px;
     font-family: 'Lobster Two', cursive;
+    color: #BCD8C1; 
+
 }
 
 /* start main */
