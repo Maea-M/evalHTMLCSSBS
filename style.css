@@ -46,6 +46,7 @@ p {
 .navbar {
     background-color: #007991;
 }
+
 .navbar a{
     color: #E9D985;
     font-family: 'Lobster Two', cursive;
@@ -59,16 +60,31 @@ p {
 
 /*Start footer*/
 footer{
-    background: #007991;
+    background: #c4dfe4;
+    position: relative;
 }
 
 footer p {
-    margin-top: 10px;
+    padding-left: 20px;;
     font-family: 'Lobster Two', cursive;
-    color: #BCD8C1; 
+    color: #222E50; 
 
 }
 
+footer img {
+    width: 150px;
+    height: auto;
+}
+
+footer ul {
+    padding-right: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+
+footer .nav-link {
+    color: #222E50;
+
+}
 /* start main */
 main {
     margin: 10px;
